@@ -1,127 +1,63 @@
+</html>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Portfolio</title>
     <!--Adding css link to html page-->
-    <Link href="style.css" rel="stylesheet" />
+    <Link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Soumya's component library.</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all the projects look good and consistent.
-    </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the largest heading.</h1>
-    <h2>This is the second largest heading.</h2>
-    <p>Let me show you normal text. This is free flowing and wrap at the end like a paragraph.</p>
-    <p>This paragraph will have <strong>bold</strong> text.</p>
-    <p class="text-sm">This is relatively small text.</p>
-
-    <hr>
-
-    <h2>@containers</h2>
-    <h3>Fluid container</h3>
-    <div class="container-fluid">This is a fluid container and it will go till the end of the page.</div>
-
-    <h3>Center container.</h3>
-    <div class="container">This is a centered container and it will go till the specified width.</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a href="https:/www.google.com" class="primary-link">Primary Link</a>
-    <a href="https://www.apple.com" class="secondary-link">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>Unordered List</h3>
-    <ul class="unordered">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>Unordered Inline List</h3>
-    <ul class="unordered list-inline">
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3>Reverse Ordered List</h3>
-    <ol reversed>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-    <p>Navigation is used on the top of the page and used to get to different pages</p>
-    <nav class="navigation">
-        <div class="container-fluid">
-            <div class="brand">theBrandName</div>
-            <ul>
-                <li>
-                    <a href="/" class="active">home</a>
-                </li>
-                <li>
-                    <a href="/">products</a>
-                </li>
-                <li>
-                    <a href="/">about</a>
-                </li>
-            </ul>
-        </div>
+    <nav class="page-header-nav">
+        <p>soumya ranjan</p>
+        <ul class="navigation-ul">
+            <li class="navigation-li">
+                <a href="/index.html" class="navigation-a navigation-active-text">home</a>
+            </li>
+            <li class="navigation-li">
+                <a href="/projects.html" class="navigation-a">projects</a>
+            </li>
+            <li class="navigation-li">
+                <a href="/blogs.html" class="navigation-a">blogs</a>
+            </li>
+        </ul>
     </nav>
 
-    <hr>
+    <div class="page-center-content">
+        <img src="images/profile_bg_green.svg" alt="" width="512" height="512">
+        <p>soumya ranjan <span> the web developer</span></p>
+    </div>
 
-    <h2>@header</h2>
-    <header class="hero">
-        <img src="images/profile_bg_green.svg" width="512" height="512" />
-        <h1>heading inside <span>header</span></h1>
-    </header>
+    <div class="page-sections">
+        <h2>technologies</h2>
+        <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+    </div>
 
-    <hr>
+    <div class="page-sections">
+        <h2>projects</h2>
+        <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+        <a href="/projects.html" class="rounded-button">See Projects</a>
+    </div>
 
-    <h2> @section</h2>
 
-    <p> A section is used to separate parts of pages. In marketing websites you would have seen a header followed by
-        sections of features, team, pricing, contact info etc.</p>
-    <section class="section">
-        <h3>@normal section</h3>
-        <h2> heading inside section</h2>
-        <p>Text defining this section and many more things</p>
-        <a href="" class="primary-link"> Primary Button</a>
-    </section>
+    <div class="page-sections">
+        <h2>blogs</h2>
+        <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+        <a href="/blogs.html" class="rounded-button-lite">Read Blogs</a>
+    </div>
 
-    <section class="section ow">
-        <h3>@an off white section</h3>
-        <h2> inside off white section</h2>
-        <p>Text defining this section and many more things</p>
-        <a href="/" class="primary-link"> Primary Button</a>
-    </section>
-
-    <hr>
-
-    <h2>@footer</h2>
-    <footer class="footer">
-        <div class="heading">Some small heading inside footer.</div>
+    <footer>
+        <p>social media presence</p>
         <ul>
-            <li><a href="/">socialone</a></li>
-            <li><a href="/">socialtwo</a></li>
-            <li><a href="/">socialthree</a></li>
+            <li><a href="https://github.com/Soumya323">github</a></li>
+            <li><a href="https://twitter.com/Ripann_?t=eWuH7_iiwAdYzr-hX5_Dzw&s=09">twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/soumya-ranjan-sahoo-60a601101">linkedin</a></li>
         </ul>
     </footer>
+
 </body>
 
 </html>
