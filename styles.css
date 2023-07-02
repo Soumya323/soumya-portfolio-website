@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
 
 :root {
-    --primary: #7C3AED;
+    --primary: #EC407A;
     --gray: #F3F4F6;
     --dark-gray: #6B7280;
+    --button-color: #E91E63;
+    --text-color-primary: #ffff;
 }
 
 body {
@@ -16,16 +19,17 @@ body {
     background-color: var(--primary);
     border-bottom-left-radius: 1rem;
     width: 90%;
-    height: 8rem;
+    /* height: 10rem; */
     margin: 0 auto;
-    padding: 0;
+    padding: 0.25rem;
 }
 
 .page-header-nav p {
-    color: white;
-    padding-top: 20px;
+    color: var(--text-color-primary);
     padding-left: 15px;
     font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .navigation-ul {
@@ -35,13 +39,14 @@ body {
 
 .navigation-li {
     display: inline-block;
-    padding: 1rem 0rem;
-    margin: 20px;
+    /* padding: 1rem 0rem; */
+    /* margin: 20px; */
+    margin-right: 20px;
 }
 
 .navigation-a {
     text-decoration: none;
-    color: white;
+    color: var(--text-color-primary);
 }
 
 
@@ -84,7 +89,7 @@ body {
 }
 
 .rounded-button {
-    background-color: var(--primary);
+    background-color: var(--button-color);
     padding: 0.5rem 1rem;
     border-radius: 1.25rem;
     text-decoration: none;
@@ -110,7 +115,7 @@ footer {
 }
 
 footer p {
-    color: white;
+    color: var(--text-color-primary);
     font-size: 1.5rem;
     font-weight: bold;
     padding-top: 1rem;
@@ -118,7 +123,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: var(--text-color-primary);
     font-size: 1rem;
 }
 
